@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react'; // Import useEffect
 import Header from './Header';
 import Footer from './Footer';
 
 const ThankYou: React.FC = () => {
+  useEffect(() => {
+    // Ensure fbq is available before tracking
+    if (window.fbq) {
+      window.fbq('track', 'Lead');
+    }
+  }, []); // Run once after component mounts
+
   return (
     <div className="bg-background min-h-screen flex flex-col">
       <Header />
