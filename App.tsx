@@ -8,6 +8,7 @@ import Solutions from './components/Solutions';
 import WhyChooseUs from './components/WhyChooseUs';
 import Pricing from './components/Pricing';
 import BookDemo from './components/BookDemo';
+import CTA from './components/CTA';
 import Footer from './components/Footer';
 import AVSExplained from './components/AVSExplained';
 import TrustBar from './components/TrustBar';
@@ -46,6 +47,9 @@ const App: React.FC = () => {
         </AnimatedSection>
         <AnimatedSection id="book-demo"> {/* Changed id */}
           <BookDemo /> {/* Replaced CTA with BookDemo */}
+        </AnimatedSection>
+        <AnimatedSection id="contact"> {/* New section for Contact Form */}
+          <CTA />
         </AnimatedSection>
       </main>
       <Footer />
