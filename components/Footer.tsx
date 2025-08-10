@@ -12,12 +12,12 @@ const Footer: React.FC = () => {
             <a href="#" className="flex items-center justify-center md:justify-start space-x-2 mb-2">
                <span className="text-2xl font-bold text-text-primary">One Click <span className="text-accent-primary">GEO</span></span>
             </a>
-            <p className="text-text-muted">Redefining Digital Marketing for the AI Era.</p>
+            <p className="text-text-muted">Redefining Digital Marketing for the AI Era with Generative Engine Optimization.</p>
           </div>
           <div className="text-text-muted">
             <p className="font-semibold text-text-primary">Contact Us</p>
             <p>Phone: <a href="tel:+19852500787" className="hover:text-accent-primary">+1 985-250-0787</a></p>
-            <p>Email: <a href="mailto:info@OneClickSEO.com" className="hover:text-accent-primary">info@OneClickSEO.com</a></p>
+            <p>Email: <a href="mailto:info@oneclick.agency" className="hover:text-accent-primary">info@oneclick.agency</a></p>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-border text-center text-sm text-text-muted">

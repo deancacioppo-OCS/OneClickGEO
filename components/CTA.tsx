@@ -13,7 +13,7 @@ const CTA: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-surface">
+    <section className="bg-background">
       <div className="container mx-auto px-6 py-20 sm:py-28 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-text-primary">
           Ready to See Your Brand Through the Eyes of AI?

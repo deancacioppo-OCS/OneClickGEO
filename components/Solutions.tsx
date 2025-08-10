@@ -24,7 +24,7 @@ const Solutions: React.FC = () => {
                 <div className="text-center max-w-3xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-text-primary">Unveiling the AI Black Box</h2>
                     <p className="mt-6 text-lg text-text-secondary">
-                        Google won't provide data for AI Overview clicks or citations, creating a "measurement chasm". We leverage sophisticated technology to fill this void, providing the intelligence you need to measure and manage what Google won't.
+                        Google won't provide data for AI Overview clicks or citations, creating a "measurement chasm". Through Generative Engine Optimization (GEO), we leverage sophisticated technology to fill this void, providing the intelligence you need to measure and manage what Google won't.
                     </p>
                 </div>
 

@@ -15,7 +15,7 @@ const Problem: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
-            The Great Decoupling: Clicks Are Declining, Citations Are the New Currency.
+            The Great Decoupling:<br />Clicks Are Declining, Citations Are the New Currency.
           </h2>
           <p className="mt-6 text-lg text-text-secondary">
             The digital marketing landscape has undergone a tectonic shift. The era of "ten blue links" is over. AI engines like Google's AI Overviews, ChatGPT, and Gemini now provide direct, synthesized answers, often bypassing website visits entirely. This severs the link between high rankings and referral traffic.
@@ -42,7 +42,7 @@ const Problem: React.FC = () => {
 
         <div className="mt-16 text-center max-w-3xl mx-auto">
             <p className="text-lg text-text-secondary">
-                This isn't the death of SEO; it's its <span className="text-accent-primary font-semibold">forced and rapid maturation</span>. The solution is no longer just ranking high. It's about becoming the authoritative source that informs the AI's answer. Success is now measured by the citation, not merely the click.
+                This isn't the death of SEO; it's its <span className="text-accent-primary font-semibold">forced and rapid maturation</span>. Generative Engine Optimization (GEO) is the solution. It's about becoming the authoritative source that informs the AI's answer. Success is now measured by the citation, not merely the click.
             </p>
         </div>
       </div>

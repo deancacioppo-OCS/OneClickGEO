@@ -18,10 +18,10 @@ const AVSExplained: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
-            Introducing the Aura Visibility Score (AVS): Your New North Star in AI Search
+            Introducing the Aura Visibility Score (AVS):<br />Your New North Star in AI Search
           </h2>
           <p className="mt-6 text-lg text-text-secondary">
-            In today's AI-driven world, traditional SEO metrics are failing. Google's AI Overviews and other generative AI platforms are providing direct answers, making brand visibility less about website clicks and more about being the trusted source cited by the AI itself.
+            In today's AI-driven world, traditional SEO metrics are failing. Generative Engine Optimization (GEO) is crucial. Google's AI Overviews and other generative AI platforms are providing direct answers, making brand visibility less about website clicks and more about being the trusted source cited by the AI itself.
           </p>
           <p className="mt-4 text-lg text-text-secondary">
             Aura pioneers a new standard for measuring your brand's influence in this evolving landscape: the <b className="text-accent-primary">Aura Visibility Score (AVS)</b>. This proprietary, weighted composite metric (calculated on a scale of 0-100) quantifies your brand's "AI footprint" and provides a holistic measure of your authority and prominence within AI-generated search results across platforms like Google AI Overviews, ChatGPT, and Gemini.

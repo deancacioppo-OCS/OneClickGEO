@@ -18,10 +18,10 @@ const WhyChooseUs: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
-            Experience Meets Innovation: Your Strategic Partner in the AI-First World
+            Experience Meets Innovation:<br />Your Strategic Partner in the AI-First World
           </h2>
           <p className="mt-6 text-lg text-text-secondary">
-            In a rapidly changing digital world, you need a partner who understands both the foundations of search and the future of AI. One Click offers both.
+            In a rapidly changing digital world, you need a partner who understands both the foundations of search and the future of AI. For Generative Engine Optimization (GEO), One Click offers both.
           </p>
         </div>
 

@@ -84,6 +84,18 @@ const Pricing: React.FC = () => {
     {
         q: "How do you track results without official data from Google?",
         a: "We use a proprietary suite of tools, including the Aura Visibility Score (AVS), combined with advanced analytics and commercial APIs. This allows us to monitor your brand's presence, sentiment, and share of voice across multiple AI platforms, giving you clear, actionable insights into performance."
+    }, {
+        q: "What is Generative Engine Optimization (GEO)?",
+        a: "GEO is the practice of optimizing digital content to influence generative AI search results and to be cited, summarized, or featured in AI-generated responses. It aims to ensure your brand is discoverable and cited by these intelligent engines, becoming a central part of the conversation between the user and the AI model."
+    }, {
+        q: "How does GEO differ from traditional SEO?",
+        a: "While traditional SEO focuses on optimizing for keyword rankings in standard search engine results pages (SERPs), GEO centers around tailoring content for AI-generated answers, which are based on trustworthiness, clarity, and semantic relevance. The goal of GEO is to be cited, summarized, or surfaced directly by AI tools, rather than just ranking pages."
+    }, {
+        q: "Why is GEO important in 2025?",
+        a: "User behavior is shifting towards AI tools for search and discovery. Brands that ignore GEO risk losing visibility as an increasing share of searches happen through AI."
+    }, {
+        q: "How do AI-powered search engines rank content?",
+        a: "AI search systems evaluate content based on relevance, clarity, depth, authority, and how well it matches user intent, not just keywords. Structured data and topical expertise also play a significant role. AI models prioritize content that is technically optimized for crawling, clearly structured, and authoritative."
     }
   ];
   
@@ -150,7 +162,7 @@ const Pricing: React.FC = () => {
             <div className="bg-surface rounded-2xl border border-border p-8 lg:p-12">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                     <div className="lg:col-span-2">
-                        <h4 className="text-xl font-semibold text-text-primary mb-4">Your 3-Month Strategic Kickstart Includes:</h4>
+                        <h4 className="text-xl font-semibold text-text-primary mb-4">Your 3-Month Strategic Kickstart Includes:<br /></h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
                             <li className="flex items-center text-text-muted"><CheckCircleIcon className="h-5 w-5 mr-2 text-accent-secondary flex-shrink-0" />Comprehensive GEO & AVS Audit</li>
                             <li className="flex items-center text-text-muted"><CheckCircleIcon className="h-5 w-5 mr-2 text-accent-secondary flex-shrink-0" />AI Search Competitor Analysis</li>

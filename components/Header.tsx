@@ -12,6 +12,7 @@ const Header: React.FC = () => {
     { name: 'Solutions', href: '#solutions' },
     { name: 'AVS Score', href: '#avs' },
     { name: 'Pricing', href: '#pricing' },
+    { name: 'FAQ', href: '#pricing' }, // Added FAQ link,
   ];
 
   useEffect(() => {
@@ -65,7 +66,7 @@ const Header: React.FC = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${headerClasses}`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <a href="#" className="flex items-center space-x-2" onClick={handleLinkClick}>
+          <a href="#" className="flex items-center space-x-2" onClick={handleLinkClick} aria-label="One Click GEO - Generative Engine Optimization">
             <span className="text-2xl font-bold text-text-primary">One Click <span className="text-accent-primary">GEO</span></span>
           </a>
           <nav className="hidden md:flex items-center space-x-8">

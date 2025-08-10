@@ -17,10 +17,10 @@ const Testimonials: React.FC = () => {
             <div className="container mx-auto px-6">
                 <div className="text-center max-w-3xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
-                        From Our Clients: The Impact of Generative Authority
+                        From Our Clients:<br />The Impact of Generative Authority
                     </h2>
                     <p className="mt-6 text-lg text-text-secondary">
-                        Don't just take our word for it. Here's how we're helping businesses thrive in the new era of AI search.
+                        Don't just take our word for it. Here's how we're helping businesses thrive with Generative Engine Optimization (GEO) in the new era of AI search.
                     </p>
                 </div>
                 <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">

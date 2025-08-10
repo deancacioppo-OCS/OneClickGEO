@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           The Evolution of Digital Visibility
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 max-w-4xl leading-tight text-text-primary">
-          Beyond the Click: Your Brand, Front and Center in AI Search.
+          Generative Engine Optimization (GEO):<br />Your Brand, Front and Center in AI Search.
         </h1>
         <p className="text-lg md:text-xl text-text-secondary max-w-2xl mb-8">
           We redefine digital marketing for the AI era. Ensure your brand isn't just found, but becomes the trusted answer across Google's AI Overviews, ChatGPT, and Gemini.
