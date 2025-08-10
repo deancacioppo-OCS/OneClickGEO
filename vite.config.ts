@@ -18,7 +18,8 @@ export default defineConfig(({ mode }) => {
         rollupOptions: {
           input: {
             main: path.resolve(__dirname, 'index.html'),
-            'thank-you': path.resolve(__dirname, 'public/thank-you.html')
+            'thank-you': path.resolve(__dirname, 'public/thank-you.html'),
+            'privacy-policy': path.resolve(__dirname, 'public/privacy-policy.html')
           }
         }
       }

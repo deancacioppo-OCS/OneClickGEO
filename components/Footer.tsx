@@ -21,6 +21,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-border text-center text-sm text-text-muted">
+          <div className="mb-4"> {/* New div for legal links */}
+            <a href="/privacy-policy.html" className="text-text-muted hover:text-accent-primary" rel="nofollow">Privacy Policy</a>
+          </div>
           <p>&copy; {currentYear} One Click GEO. All Rights Reserved.</p>
         </div>
       </div>
