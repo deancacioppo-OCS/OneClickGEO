@@ -7,7 +7,7 @@ import WhatIsGEO from './components/WhatIsGEO';
 import Solutions from './components/Solutions';
 import WhyChooseUs from './components/WhyChooseUs';
 import Pricing from './components/Pricing';
-import CTA from './components/CTA';
+import BookDemo from './components/BookDemo';
 import Footer from './components/Footer';
 import AVSExplained from './components/AVSExplained';
 import TrustBar from './components/TrustBar';
@@ -44,8 +44,8 @@ const App: React.FC = () => {
         <AnimatedSection id="pricing">
           <Pricing />
         </AnimatedSection>
-        <AnimatedSection id="contact">
-          <CTA />
+        <AnimatedSection id="book-demo"> {/* Changed id */}
+          <BookDemo /> {/* Replaced CTA with BookDemo */}
         </AnimatedSection>
       </main>
       <Footer />

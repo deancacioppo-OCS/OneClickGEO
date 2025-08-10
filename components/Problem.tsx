@@ -44,6 +44,15 @@ const Problem: React.FC = () => {
             <p className="text-lg text-text-secondary">
                 This isn't the death of SEO; it's its <span className="text-accent-primary font-semibold">forced and rapid maturation</span>. Generative Engine Optimization (GEO) is the solution. It's about becoming the authoritative source that informs the AI's answer. Success is now measured by the citation, not merely the click.
             </p>
+            <div className="mt-10">
+              <a
+                href="#book-demo"
+                className="bg-accent-primary text-background font-bold px-10 py-4 rounded-lg text-lg hover:bg-opacity-90 transform hover:scale-105 transition-all duration-300 inline-block"
+                aria-label="Book Your Free Demo"
+              >
+                Book Your Free Demo
+              </a>
+            </div>
         </div>
       </div>
     </section>

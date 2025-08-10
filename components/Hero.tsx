@@ -25,6 +25,12 @@ const Hero: React.FC = () => {
             See Our GEO Plans
           </a>
           <a
+            href="#book-demo" // New button
+            className="bg-accent-secondary text-background font-bold px-8 py-4 rounded-lg hover:bg-opacity-90 transform transition-all duration-300"
+          >
+            Book a Demo
+          </a>
+          <a
             href="#problem"
             className="bg-surface/30 text-text-primary font-bold px-8 py-4 rounded-lg border border-text-primary hover:bg-surface/50 transform hover:scale-105 transition-all duration-300"
           >

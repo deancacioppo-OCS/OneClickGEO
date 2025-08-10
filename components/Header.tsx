@@ -12,7 +12,8 @@ const Header: React.FC = () => {
     { name: 'Solutions', href: '#solutions' },
     { name: 'AVS Score', href: '#avs' },
     { name: 'Pricing', href: '#pricing' },
-    { name: 'FAQ', href: '#pricing' }, // Added FAQ link,
+        { name: 'FAQ', href: '#pricing' }, // Added FAQ link
+    { name: 'Book a Demo', href: '#book-demo' }, // Added Book a Demo link, // Added FAQ link,
   ];
 
   useEffect(() => {
