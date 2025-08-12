@@ -146,6 +146,9 @@ const Pricing: React.FC = () => {
   return (
     <section className="bg-background py-20 sm:py-28">
       <div className="container mx-auto px-6">
+        <div className="bg-accent-secondary/10 p-4 rounded-lg text-center mb-12 border border-accent-secondary/20">
+          <p className="text-accent-secondary font-semibold">If you are a current One Click client, reach out for special pricing.</p>
+        </div>
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-text-primary">Transparent Pricing for Generative Authority</h2>
           <p className="mt-6 text-lg text-text-secondary">
@@ -210,6 +213,9 @@ const Pricing: React.FC = () => {
                     <FAQItem key={index} question={faq.q}>{faq.a}</FAQItem>
                 ))}
              </div>
+        </div>
+        <div className="bg-accent-secondary/10 p-4 rounded-lg text-center mt-20 max-w-4xl mx-auto border border-accent-secondary/20">
+          <p className="text-accent-secondary font-semibold">If you are a current One Click client, reach out for special pricing.</p>
         </div>
       </div>
     </section>
