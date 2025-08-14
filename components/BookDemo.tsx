@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 
 const BookDemo: React.FC = () => {
+  
+
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://go.oneclickseo.com/js/form_embed.js';
+    script.src = 'https://link.msgsndr.com/js/form_embed.js';
     script.type = 'text/javascript';
     script.async = true;
     document.body.appendChild(script);
@@ -23,12 +25,7 @@ const BookDemo: React.FC = () => {
           Schedule a personalized demo to see how Generative Engine Optimization can transform your brand's AI visibility.
         </p>
         <div className="max-w-3xl mx-auto">
-          <iframe
-            src="https://go.oneclickseo.com/widget/booking/eCZezHIqPUP3ewxKmezY"
-            style={{ width: '100%', border: 'none', overflow: 'hidden', height: '800px' }} // Added height for visibility
-            scrolling="no"
-            id="eCZezHIqPUP3ewxKmezY_1754828599811"
-          ></iframe>
+          <iframe src="https://api.leadconnectorhq.com/widget/booking/zve6c0m24kbAcCRgHggE" style={{ width: '100%', border: 'none', overflow: 'hidden' }} scrolling="no" id="zve6c0m24kbAcCRgHggE_1755199728949"></iframe>
         </div>
       </div>
     </section>
